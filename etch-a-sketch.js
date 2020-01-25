@@ -1,10 +1,9 @@
 const container = document.querySelector('#container');
-
 const button = document.querySelector('#button');
 button.addEventListener("click", clearAndResize);
 
 function createGrid(lateralSize){
-  for (var i = 0; i < lateralSize**2; i++) {
+  for (let i = 0; i < lateralSize**2; i++) {
     let content = document.createElement('div');
     content.classList.add('content');
     container.appendChild(content);
