@@ -10,7 +10,7 @@ h1 {
     font-size: 2rem;
 }
 
-  #container {
+#container {
     display: grid;
     height: 500px;
     width: 500px;
@@ -19,29 +19,32 @@ h1 {
     border-color:  #567fcb;
     border-width: 3px;
     border-radius: 10px;
-  }
-  
-  div {
+}
+
+div {
     text-align: center;
     border-radius: 5px;
     background: whitesmoke;
-  }
-  
-  button{
+}
+
+button{
     margin-top: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-bottom: 25px;
+    align-self: center;
     width: -webkit-fill-available;
+    max-width: 650px;
+    min-width: 500px;
     line-height: 34px;
     padding: 0 12px;
     color: #cb6556;
     box-shadow: inset 0 0 0 2px #f8e8e5;
     border-radius: 34px;
     transition: color .2s,box-shadow .2s,border-color .2s;
-  }
-  button:hover{
+    font-size: medium;
+}
+button:hover{
     background: #cb6556;
     transition: bottom .2s;
     color: #fff;
     box-shadow: none;
-  }
+}

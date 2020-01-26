@@ -20,12 +20,7 @@ function createGrid(gridSize){
     }
 }
 
-function random(number) { 
-    return Math.floor(Math.random() * (number + 1));
-}
-
 container.addEventListener('mouseover', (event) => { 
-    const randomColor = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
     const currentBox = event.target;
     fadeEffect(currentBox);
 });
