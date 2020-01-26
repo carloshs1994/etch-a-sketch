@@ -1,6 +1,7 @@
 html, body, div {
     font-family: arial,sans-serif;
     text-align: center;
+    background: #add0e4;
   }
   
 h1 {
@@ -13,20 +14,34 @@ h1 {
     display: grid;
     height: 500px;
     width: 500px;
+    background: whitesmoke;
+    border-style: solid;
+    border-color:  #567fcb;
+    border-width: 3px;
+    border-radius: 10px;
   }
   
   div {
     text-align: center;
-    border-style: solid;
-    border-color: #6e6e6e;
-    border-width: 1px;
+    border-radius: 5px;
+    background: whitesmoke;
   }
   
-  button {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 10px;
-    text-align: center;
-    font-family: arial, sans-serif;
-    font-size: 1rem;
+  button{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: -webkit-fill-available;
+    line-height: 34px;
+    padding: 0 12px;
+    color: #cb6556;
+    box-shadow: inset 0 0 0 2px #f8e8e5;
+    border-radius: 34px;
+    transition: color .2s,box-shadow .2s,border-color .2s;
+  }
+  button:hover{
+    background: #cb6556;
+    transition: bottom .2s;
+    color: #fff;
+    box-shadow: none;
   }
