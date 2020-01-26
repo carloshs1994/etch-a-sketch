@@ -29,12 +29,7 @@ function random(number) {
 container.addEventListener('mouseover', (event) => { 
     const randomColor = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
     const currentBox = event.target;
-    if(container.className === 'colorful') {
-    currentBox.style.backgroundColor = randomColor;
-    
-    } else {
     fadeEffect(currentBox);
-    }
   });
   
   function fadeEffect(element) {
